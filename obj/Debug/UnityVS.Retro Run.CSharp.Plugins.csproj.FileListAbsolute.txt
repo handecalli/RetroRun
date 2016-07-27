@@ -1,0 +1,20 @@
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\Photon3Unity3D.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEditor.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\websocket-sharp.dll
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.xml
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEditor.xml
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.xml
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+E:\Documents\Repositories\RetroRun\Retro Run\Temp\UnityVS_bin\Debug\Photon3Unity3D.xml
+E:\Documents\Repositories\RetroRun\Retro Run\obj\Debug\UnityVS.Retro Run.CSharp.Plugins.csprojResolveAssemblyReference.cache
+E:\Documents\Repositories\RetroRun\Retro Run\obj\Debug\Assembly-CSharp-firstpass.dll
+E:\Documents\Repositories\RetroRun\Retro Run\obj\Debug\Assembly-CSharp-firstpass.pdb

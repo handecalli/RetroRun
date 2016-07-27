@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A109034-89AE-53EC-682E-FC94ADE30CE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.1.2f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Plugins\WebSocket\websocket-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Retro Run.CSharp.Plugins.csproj">
+      <Project>{810754D6-4689-E7AA-B11D-484EB1FCB2C6}</Project>
+      <Name>UnityVS.Retro Run.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\HighlightOwnedGameObj.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomRoundTimer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowInfoOfPlayer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+    <Compile Include="Assets\PlayFabSDK\Internal\Log.cs" />
+    <Compile Include="Assets\PlayFabSDK\Internal\PlayFabHTTP.cs" />
+    <Compile Include="Assets\PlayFabSDK\Internal\PlayFabVersion.cs" />
+    <Compile Include="Assets\PlayFabSDK\Internal\ResultContainer.cs" />
+    <Compile Include="Assets\PlayFabSDK\Internal\SingletonMonoBehaviour.cs" />
+    <Compile Include="Assets\PlayFabSDK\Internal\Util.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\CRC32.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\Deflate.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\DeflateStream.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\GZipStream.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\InfTree.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\Inflate.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZTree.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\Zlib.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibBaseStream.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibCodec.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibConstants.cs" />
+    <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibStream.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\DataReaderProvider.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\DataWriterProvider.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\EcmaScriptIdentifier.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\EcmaScriptWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\IDataReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\IDataWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\IJsonSerializable.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonDataReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonDataWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonIgnoreAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonMemberAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonNameAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonOptInAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonReaderSettings.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonSerializationException.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonSpecifiedPropertyAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonToken.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\JsonWriterSettings.cs" />
+    <Compile Include="Assets\PlayFabSDK\JsonFx\TypeCoercionUtility.cs" />
+    <Compile Include="Assets\PlayFabSDK\Manager\PlayFabManager.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\ConstructorHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\CustomCreationConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\DateTimeConverterBase.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\IsoDateTimeConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\JavaScriptDateTimeConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\KeyValuePairConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\RegexConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\StringEnumConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Converters\VersionConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\DateFormatHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\DateParseHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\DateTimeZoneHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\DefaultValueHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\FloatFormatHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\FloatParseHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Formatting.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\IJsonLineInfo.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonArrayAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonConstructorAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonContainerAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonConvert.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonConverterAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonConverterCollection.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonDictionaryAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonException.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonExtensionDataAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonIgnoreAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonObjectAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonPosition.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonPropertyAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonReaderException.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonSerializationException.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonSerializer.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonSerializerSettings.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonTextReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonTextWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonToken.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\JsonWriterException.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\Extensions.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\IJEnumerable.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JArray.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JConstructor.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JContainer.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JEnumerable.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JObject.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JProperty.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JPropertyDescriptor.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JPropertyKeyedCollection.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JRaw.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JToken.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JTokenEqualityComparer.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JTokenReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JTokenType.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JTokenWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JValue.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonMergeSettings.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\ArrayIndexFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\ArrayMultipleIndexFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\ArraySliceFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\FieldFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\FieldMultipleFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\JPath.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\PathFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\QueryExpression.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\QueryFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\JsonPath\ScanFilter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Linq\MergeArrayHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\MemberSerialization.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\MetadataPropertyHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\MissingMemberHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\NullValueHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\ObjectCreationHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\PreserveReferencesHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\ReferenceLoopHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Required.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\CachedAttributeGetter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\CamelCasePropertyNamesContractResolver.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\DefaultContractResolver.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\DefaultReferenceResolver.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\DefaultSerializationBinder.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\DiagnosticsTraceWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\ErrorContext.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\ErrorEventArgs.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\IAttributeProvider.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\IContractResolver.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\IReferenceResolver.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\ITraceWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\IValueProvider.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonArrayContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonContainerContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonDictionaryContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonFormatterConverter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonISerializableContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonLinqContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonObjectContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonPrimitiveContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonProperty.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonPropertyCollection.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonSerializerInternalBase.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonSerializerInternalWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonSerializerProxy.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonStringContract.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\JsonTypeReflector.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\MemoryTraceWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\ObjectConstructor.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\OnErrorAttribute.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\ReflectionAttributeProvider.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\ReflectionValueProvider.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\TraceJsonReader.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Serialization\TraceJsonWriter.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\StringEscapeHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\TypeNameHandling.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\AOTComparators.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\Base64Encoder.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\BidirectionalDictionary.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\CollectionUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\CollectionWrapper.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ConvertUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\DateTimeParser.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\DateTimeUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\DictionaryWrapper.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\EnumUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\EnumValue.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ILGeneratorExtensions.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\JavaScriptUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\JsonTokenUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\LateBoundReflectionDelegateFactory.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\LinqBridge.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\MathUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\MethodCall.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\MiscellaneousUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\PropertyNameTable.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ReflectionDelegateFactory.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ReflectionObject.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ReflectionUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\StringBuffer.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\StringReference.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\StringUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ThreadSafeStore.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\TypeExtensions.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\Utilities\ValidationUtils.cs" />
+    <Compile Include="Assets\PlayFabSDK\Newtonsoft.Json\WriteState.cs" />
+    <Compile Include="Assets\PlayFabSDK\Public\PlayFabClientAPI.cs" />
+    <Compile Include="Assets\PlayFabSDK\Public\PlayFabClientModels.cs" />
+    <Compile Include="Assets\PlayFabSDK\Public\PlayFabData.cs" />
+    <Compile Include="Assets\PlayFabSDK\Public\PlayFabErrors.cs" />
+    <Compile Include="Assets\PlayFabSDK\Public\PlayFabSettings.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\AudioEventManager.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\CameraControllerOnline.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\FinishScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\GoldScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\InitializationEventManager.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\InputNavigator.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\LeverScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\LobbyScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\MiniMapScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\MissileBoxScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\MissileScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\ObjectPoolDestroyer.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\ObjectPoolScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\ParticleColliderScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\StunTrapScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\TrapScript.cs" />
+    <Compile Include="Assets\Scripts\Game Scripts\UIManagerScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\AutoLoginScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\ButtonSelectionScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\CatalogScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\ContentHolder.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\GenericSingleton.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\GoldManager.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\InventoryScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\ItemWearScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\LeaderboardManager.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\LoginScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\MarketItemScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\MarketManagerScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\Multiplayer.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\OnPickedUpScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\PhotonConnectionScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\PhotonPlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\PlayFabGameBridge.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\PlayerDataManagerScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\PurchaseScript.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\StatManager.cs" />
+    <Compile Include="Assets\Scripts\Multiplayer Scripts\SynchTimeScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Photon Unity Networking\changelog.txt" />
+    <None Include="Assets\Photon Unity Networking\readme.txt" />
+    <None Include="Assets\PlayFabSDK\JsonFx\License.txt" />
+    <None Include="Assets\PlayFabSDK\JsonFx\Readme.txt" />
+    <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+    <None Include="Assets\Plugins\release_history.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>
